@@ -6,9 +6,15 @@ namespace varya
         return result;
     }
 
-       int sub(int c, int d)
+    int sub(int c, int d)
     {
         int result = c - d;
         return result;
     }
-} 
+
+    int mult(int a, int b)
+    {
+        int result = a * b;
+        return result;
+    }
+}

@@ -1,10 +1,10 @@
-COMPILE=g++
-SOURCE_FILE=~/dev/cpp/ex1/main.cpp
-WITH_CXX_STANDARD=-std=c++20
-USING_COMPILER_FLAGS=-pedantic -Wall -Wextra
-FROM_CURRENT_DIR=.
-RUN_EXECUTABLE=a.out
+CXX=g++
+CXX_STANDARD=-std=c++20
+CXX_FLAGS=-pedantic -Wall -Wextra
+SRC_DIR=~/dev/cpp/ex1/
+SRC_FILES=main.cpp
+EXEC=./a.out
 
 
 compile_and_run:
-	${COMPILE} ${WITH_CXX_STANDARD} ${USING_COMPILER_FLAGS} ${SOURCE_FILE} && ${FROM_CURRENT_DIR}/${RUN_EXECUTABLE}
+	${CXX} ${CXX_STANDARD} ${CXX_FLAGS} ${SRC_DIR}/${SRC_FILES} && ${EXEC}

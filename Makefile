@@ -1,5 +1,5 @@
 COMPILE=g++
-SOURCE_FILE=/home/nadia/dev/cpp/ex1/main.cpp
+SOURCE_FILE=~/dev/cpp/ex1/main.cpp
 WITH_CXX_STANDARD=-std=c++20
 USING_COMPILER_FLAGS=-pedantic -Wall -Wextra
 FROM_CURRENT_DIR=.

@@ -17,4 +17,15 @@ namespace varya
         int result = a * b;
         return result;
     }
+
+    int div(int a, int b)
+    {
+        if (b == 0)
+        {
+            std::cout << "Division by zero is not allowed\n";
+            return -1;
+        }
+
+        return a / b;
+    }
 }

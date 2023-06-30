@@ -1,3 +1,5 @@
+#include <iostream>
+
 namespace varya
 {
     int add(int a, int b)
